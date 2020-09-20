@@ -1,0 +1,84 @@
+ <!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="resources/css/projekt.css" media="screen" />
+ 
+
+</head>
+<body>
+	<div id="wrapper" width = "1200px" height = "1200px">
+		<div class="menu">
+			<div ="main" >
+				<div class = "sky square"></div>
+				<div class = "cloud">
+					<div class = "cloud-part-1"></div>
+					<div class = "cloud-part-2"></div>
+					<div class = "cloud-part-3"></div>
+				</div>
+				
+				<div class = "mountain1">
+					<div class = "mountain-snow"></div>
+				</div>
+			
+				<div class = "mountain2">
+					<div class = "mountain-snow"></div>
+				</div>
+				
+				<div class = "mountain3">
+					<div class = "mountain-snow"></div>
+				</div>
+				
+				<div class = "mountain4">
+					<div class = "mountain-snow"></div>
+				</div>
+				
+				<div class = "gras"></div>
+				<div class = "stick"></div>
+				<div class = "shield"></div>
+				<button class="button startButton">Start game</button>	
+			</div>
+			
+		</div>
+		<canvas id="myCanvas" width="800" height="800" style="border:1px solid #000000;">
+			Your browser does not support the HTML5 canvas tag.
+		</canvas>
+		<div class= "endscreen">
+			<p> Game over! </p>
+		</div>
+		<div class="pauseScreen" >
+				<button class= "button returnButton">Return to game</button>	
+				<button class = "button quitButton"> Quit game </button>
+		</div>
+
+		<div class= "quitGameScreen">
+			<div class= "square"></div>
+			<p class = "quitGameFont"> See you next time! </p>
+		</div>
+		
+		<div class= "wonScreen">
+			<div class= "square"></div>
+			<p class = "wonFont"> You have won! </p>
+		</div>
+		
+	</div>
+	<script src="resources/js/constants.js"></script>
+	<script src="resources/js/collisions.js"></script>
+	<script src="resources/js/object.js"></script>
+	<script src="resources/js/object_types.js"></script>
+	<script src="resources/js/movable.js"></script>
+	<script src="resources/js/game.js"></script>
+	<script src="resources/js/score.js"></script>
+	<script src="resources/js/background.js"></script>
+	<script src="resources/js/static_obstacle.js"></script>
+	<script src="resources/js/movable_obstacle.js"></script>
+	<script src="resources/js/player.js"></script>
+	<script src="resources/js/collectable_obstacle.js"></script>
+	<script src="resources/js/monster.js"></script>
+	<script src="resources/js/goal.js"></script>
+	<script src="resources/js/loadObjects.js"></script>
+	<script src="resources/js/event_listener.js"></script>
+	<script src="resources/js/main.js"></script>
+	
+	
+</body>
+</html>

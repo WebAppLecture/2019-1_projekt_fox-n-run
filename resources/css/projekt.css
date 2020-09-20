@@ -1,0 +1,195 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+#myCanvas{
+	display: none;
+	position: absolute;
+	top: calc(50%-600px); 
+}
+
+.button {
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	width: 150px;
+	position: absolute;
+	top: 330px;
+	left: 100px;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+
+.startButton{
+	left: 350px;
+}
+.returnButton{
+	left: 200px;
+}
+.quitButton{
+	left: 500px;
+}
+.mountain-snow{
+	width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #ffffff;
+	position: absolute;
+	top: 0px;
+	left: -50px;
+}
+
+.mountain1, .mountain2, .mountain3 , .mountain4{
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 400px solid #77D3FF;
+	position: absolute;
+	top: 100px;
+	left: -150px;
+}
+
+.mountain2{
+	top: 200px;
+	left: 80px;
+	border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid #77D3FF;
+}
+.mountain3{
+	top: 100px;
+	left: 150px;
+}
+.mountain4{
+	top: 100px;
+	left: 392px;
+}
+
+.square {
+      width: 800px;
+      height: 800px;
+      background: black;
+	  position: absolute;
+	  top: 7px;
+	  left:7px;
+}
+.sky{
+	width: 780px;
+    height: 780px;
+	background: #e7f5fe;
+}
+
+.shield {
+      width: 250px;
+      height: 150px;
+      background: brown;
+	  position: absolute;
+	  top: 300px;
+	  left:300px;
+}
+.stick {
+      width: 30px;
+      height: 400px;
+      background: brown;
+	  position: absolute;
+	  top: 300px;
+	  left:410px;
+}
+.gras {
+      width: 790px;
+      height: 290px;
+      background: #6ad452;
+	  position: absolute;
+	  top: 500px;
+	  left:0px;
+}
+
+.cloud-part-1 {
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 350px;
+}
+.cloud-part-2{
+  height: 130px;
+  width: 130px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 400px;
+}
+
+.cloud-part-3 {
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 510px;
+}
+
+
+.endscreen, .quitGameScreen, .pauseScreen, .wonScreen{
+	display: none;
+	top: calc(50%-600px); 
+	height: 800px;
+	width: 800px;
+}
+
+.menu{
+	display: flexible;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: calc(50%-600px); 
+	height: 800px;
+	width: 800px;
+}
+.endscreen, .wonScreen{
+    background: black;
+}
+
+
+p {
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	font-size: 600%;
+	position: absolute;
+	top: 230px;
+	left: 80px;
+}
+.quitGameFont{
+	font-size: 400%;
+	top: 300px;
+	left: 80px;
+}
+
+.wonFont{
+	top: 230px;
+	left: 30px;
+}
